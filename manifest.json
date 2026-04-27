@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Discord Token Viewer",
+  "version": "3.0",
+  "description": "Discord Token Viewer is a Chrome extension that allows users to easily view their Discord tokens directly from the browser. With a simple interface, users can quickly access their tokens without needing to navigate through Discord's settings. This extension is designed for convenience and ease of use, making it a handy tool for developers and users who need quick access to their Discord tokens.",
+  "host_permissions": [
+    "https://discord.com/*"
+  ],
+  "permissions": [
+    "scripting",
+    "storage",
+    "clipboardWrite"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://discord.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}

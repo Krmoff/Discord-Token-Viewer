@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #23272a;
+}
+.container {
+  width: 330px;
+  padding: 18px;
+  background: #23272a;
+  color: #fff;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 18px;
+}
+.account-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  background: #2c2f33;
+  border-radius: 6px;
+  padding: 7px;
+}
+.account-name {
+  flex: 1;
+  font-weight: bold;
+  color: #fff;
+}
+.token {
+  background: #23272a;
+  border-radius: 4px;
+  padding: 2px 7px;
+  margin-right: 7px;
+  cursor: pointer;
+  transition: background 0.15s;
+  user-select: all;
+  color: #7289da;
+  font-size: 13px;
+}
+.token:hover {
+  background: #7289da;
+  color: #fff;
+}
+.note {
+  margin-top: 18px;
+  font-size: 13px;
+  text-align: center;
+  color: #b9bbbe;
+}
+.copied {
+  background: #43b581 !important;
+  color: #fff !important;
+}
