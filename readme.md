@@ -21,7 +21,7 @@ Token bilgilerinizi harici hiçbir yere göndermez; sadece **görüntüler**. �
 
 ### 📌 Katkıda Bulun
 Projeye katkı sağlamak, hata bildirmek veya geliştirmek için:
-👉 [GitHub Sayfamız](https://github.com/Kmroff/Discord-Token-Viewer)
+👉 [GitHub Sayfamız](https://github.com/Krmoff)
 
 ---
 
@@ -41,4 +41,4 @@ It never sends your token anywhere; it just **displays** it locally. 🔍✨
 
 ### 📌 Contribute
 Feel free to contribute, report issues, or help us improve:
-👉 [Our GitHub Page](https://github.com/Krmoff/Discord-Token-Viewer)
+👉 [Our GitHub Page](https://github.com/Krmoff)
